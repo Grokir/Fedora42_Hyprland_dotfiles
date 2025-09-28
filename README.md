@@ -14,6 +14,10 @@
 - Rofi (recommended) or Wofi
 - Gnome-terminal (because I write it in config file)
 - Nautilus (because I write it in config file)
+- Grim
+- Slurp
+- Nm-applet
+- Pavucontrol
 
 **WARNING**
 My build was originally designed for ***Linux Fedora 42 (with GNOME by default)***. That's why I use swaylock instead of Hyprlock. I also have a pretty minimalistic build.:
@@ -22,5 +26,18 @@ My build was originally designed for ***Linux Fedora 42 (with GNOME by default)*
 - blur is disabled
 
 For shotcuts, see *hyprland.conf*
+
+# Screenshots
+
+![](/screenshots/1.png)
+
+![](/screenshots/2.png)
+
+![](/screenshots/3.png)
+
+![](/screenshots/4.png)
+
+![](/screenshots/5.png)
+
 
 
