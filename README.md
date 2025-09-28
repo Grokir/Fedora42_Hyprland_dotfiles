@@ -31,6 +31,23 @@ For shotcuts, see *hyprland.conf*
 
 To create wallpaper for *Swaylock*, install GIMP and make a blur. After that, specify the path to the image in the *Swaylock* config.
 
+# Hints
+
+Main mode key - Super (or Win key);
+
+```
+Super + T           - run terminal
+Super + D           - run rofi
+Super + E           - run file manager
+Super + Shift + Q   - run wlogout
+```
+
+# Installation
+
+```bash
+cp -r dotfiles/* $HOME/.config
+```
+
 # Screenshots
 
 ![](/screenshots/1.png)
