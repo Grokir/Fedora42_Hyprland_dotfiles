@@ -27,6 +27,10 @@ My build was originally designed for ***Linux Fedora 42 (with GNOME by default)*
 
 For shotcuts, see *hyprland.conf*
 
+# Recommendations
+
+To create wallpaper for *Swaylock*, install GIMP and make a blur. After that, specify the path to the image in the *Swaylock* config.
+
 # Screenshots
 
 ![](/screenshots/1.png)
