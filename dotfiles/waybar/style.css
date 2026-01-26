@@ -10,9 +10,10 @@
 
 window#waybar {
     /* background-color: rgba(43, 48, 59, 0.9); */
-    background-color: rgba(0, 0, 0, 0.55); /* black */
-    background-color: rgba(0, 0, 0, 0.75); /* black */
+    /* background-color: rgba(0, 0, 0, 0.55); black */
+    /* background-color: rgba(0, 0, 0, 0.75); black */
     /* background-color: rgba(43, 48, 59, 0.8); */
+    background-color: rgba(21, 26, 32, 0.9);
     border-radius: 0px;
     /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
     color: #ffffff;

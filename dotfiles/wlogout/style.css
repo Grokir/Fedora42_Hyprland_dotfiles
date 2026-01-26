@@ -7,7 +7,8 @@
 @import 'colors.css';
 
 window {
-    background-color: rgba(17, 17, 17, 0.45);
+    /* background-color: rgba(17, 17, 17, 0.99); */
+    background-color: rgba(21, 26, 32, 0.95);
     /* filter: blur(3px); */
 }
 
@@ -16,7 +17,7 @@ button {
     margin: 10px;
     color: @inverse_surface;
     border-color: @inverse_surface;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 1);
     outline-style: none;
     border-style: solid;
 	border-width: 0px;
@@ -29,7 +30,11 @@ button {
 }
 
 button:hover,button:focus {
-    background-color: @on_secondary_fixed_variant;
+    /* background-color: @on_secondary_fixed_variant; */
+    /* background-color: @on_primary_fixed_variant; */
+    background-color: rgba(96, 148, 191, 0.6);
+    /* background-color: #64727D; */
+    
     background-size: 23%;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.3s cubic-bezier(.55,0.0,.28,1.682);

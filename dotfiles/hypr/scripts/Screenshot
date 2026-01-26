@@ -1,8 +1,8 @@
 #!/bin/bash
 
 time=$(date +%Y-%m-%d-%H-%M-%S)
-# dir="$(xdg-user-dir PICTURES)/Screenshots"
-dir="$(xdg-user-dir PICTURES)/Скриншоты"
+dir="$(xdg-user-dir PICTURES)/Hypr_Screenshots"
+# dir="$(xdg-user-dir PICTURES)/Скриншоты"
 file="Screenshot_${time}_${RANDOM}.png"
 
 # countdown

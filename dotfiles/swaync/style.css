@@ -124,7 +124,7 @@
   -gtk-icon-effect: none;
   border-radius: 100px;
   /* Size in px */
-  margin: 4px;
+  margin: 8px;
 }
 
 .notification-row .notification-background .notification .notification-default-action .notification-content .app-icon {
@@ -289,10 +289,15 @@
   /* The Control Center which contains the old notifications + widgets */
   background: alpha(@cc-bg, 2);  
   border-radius: 24px;
-  border: 2px solid @noti-border-color;
+  /* border-radius: 10px; */
+  /* border: 2px solid @noti-border-color; */
+  border: 0px solid @noti-border-color;
   box-shadow: 0 0 10px 0 rgba(0,0,0,.6);
-  margin: 18px;
-  padding: 12px;
+  /* margin: 18px; */
+  margin-right: 8px;
+  margin-top:   3px;
+  
+  padding: 14px;
 }
 
 .control-center .control-center-list-placeholder {

@@ -79,8 +79,10 @@
 
     "clock": {
         "format": " {:L%a, %e %b. %H:%M} ",
-        "tooltip-format": " <big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt> "
+        "tooltip-format": " <tt><small>{calendar}</small></tt> ",
         // "format-alt": " {:%Y-%m-%d} "
+        
+        "on-click-right": "gnome-calendar"
     },
     
 
@@ -165,25 +167,26 @@
             "warning": 20,
             "critical": 15
         },
-        "format": " {icon} ",
+        "format": " {icon} {capacity}% ",
         "tooltip-format": " Battery charge level: {capacity}% ",
-        "format-full": " {icon} ",
-        "format-charging": "   ",
-        "format-plugged":  "  ",
-        // "format-full": " {icon} {capacity}%",
+        "format-full": " {icon} {capacity}% ",
+        //"format-charging": "  {capactity}% ",
+        "format-charging": "   {capacity}% ",
+        "format-plugged":  "  {capacity}% ",
+        "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+        // "format-plugged":  "  ",
+        // "format-full": " {icon} ",
         // "format-charging": " {capacity}%  ",
         // "format-plugged": " {capacity}%  ",
-        "format-alt": " {icon} {capacity}% ",
+        // "format-alt": " {icon} ",
         // "format-alt": " {time} {icon} ",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
+        // "format-icons": ["", "", "", "", ""]
+        
     },
 
 
-    "battery#bat2": {
-        "bat": "BAT2"
-    },
 
 
     "power-profiles-daemon": {
@@ -249,13 +252,22 @@
 
 
     "custom/notification_center":{
-      // "format": "  ",
+      //"format": "  {count}",
       "format": "  ",
       "on-click": "swaync-client -t",
       "tooltip-format": "notifications"
 
     },
 
+    "custom/notification_center#2": {
+      "tooltip": false,
+      "format": "{icon} {0}",
+      "format-icons": [" 󰂚 ", " 󱅫 "],
+      "return-type": "json",
+      // "exec-if": "which swaync-client",
+      // "exec": "swaync-client -swb",
+      "on-click": "swaync-client -t"
+    }, 
 
     "custom/network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
