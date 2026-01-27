@@ -18,6 +18,9 @@
 - Slurp
 - Nm-applet
 - Pavucontrol
+- Nwg-drawer
+- Nwg-dock
+- Nwg-panel
 
 **WARNING**
 My build was originally designed for ***Linux Fedora 42 (with GNOME by default)***. That's why I use swaylock instead of Hyprlock. I also have a pretty minimalistic build.:
