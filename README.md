@@ -40,7 +40,8 @@ Main mode key - Super (or Win key);
 
 ```
 Super + T           - run terminal
-Super + D           - run rofi
+Super + D           - run rofi/nwg-drawer
+Super + Shift + D   - run nwg-dock
 Super + E           - run file manager
 Super + Shift + Q   - run wlogout
 ```
