@@ -12,7 +12,7 @@
 - Cava
 - Fastfetch
 - Rofi (recommended) or Wofi
-- Gnome-terminal (because I write it in config file)
+- Gnome-terminal or Tilix (because I write it in config file)
 - Nautilus (because I write it in config file)
 - Grim
 - Slurp
