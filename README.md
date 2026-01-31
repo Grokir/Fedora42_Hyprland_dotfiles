@@ -4,7 +4,7 @@
 - SwayLock
 - Swaync
 - Hyprland
-- Hyprpaper
+- Hyprpaper or *swww and nsxiv*
 - Kitty
 - Syshud
 - Waybar
@@ -12,15 +12,13 @@
 - Cava
 - Fastfetch
 - Rofi (recommended) or Wofi
-- Gnome-terminal or Tilix (because I write it in config file)
+- Gnome-terminal (because I write it in config file)
 - Nautilus (because I write it in config file)
 - Grim
 - Slurp
 - Nm-applet
 - Pavucontrol
-- Nwg-drawer
-- Nwg-dock
-- Nwg-panel
+- [HyprWallsChanger](https://github.com/Grokir/HyprWallsChanger)(hypr-walls-blur)
 
 **WARNING**
 My build was originally designed for ***Linux Fedora 42 (with GNOME by default)***. That's why I use swaylock instead of Hyprlock. I also have a pretty minimalistic build.:
@@ -40,8 +38,7 @@ Main mode key - Super (or Win key);
 
 ```
 Super + T           - run terminal
-Super + D           - run rofi/nwg-drawer
-Super + Shift + D   - run nwg-dock
+Super + D           - run rofi
 Super + E           - run file manager
 Super + Shift + Q   - run wlogout
 ```
