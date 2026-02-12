@@ -18,7 +18,7 @@
 - Slurp
 - Nm-applet
 - Pavucontrol
-- [HyprWallsChanger](https://github.com/Grokir/HyprWallsChanger) (hypr-walls-blur)
+- [HyprWallsChanger](https://github.com/Grokir/HyprWallsChanger) (hypr-walls-blur) or [HyprWallsChanger-go](https://github.com/Grokir/HyprWallsChanger-go) (hypr-walls-blur-go)
 
 **WARNING**
 My build was originally designed for ***Linux Fedora 42 (with GNOME by default)***. That's why I use swaylock instead of Hyprlock. I also have a pretty minimalistic build.:
